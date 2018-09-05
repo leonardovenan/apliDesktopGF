@@ -22,12 +22,14 @@ import javax.swing.JLabel;
 import javax.swing.border.EtchedBorder;
 import javax.swing.JComboBox;
 import javax.swing.SwingConstants;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
 import net.miginfocom.swing.MigLayout;
 
 public class BaseAnt extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;
@@ -217,7 +219,7 @@ public class BaseAnt extends JFrame {
 		JLabel lblAplicaoDesktop = new JLabel("Aplica\u00E7\u00E3o Desktop");
 		lblAplicaoDesktop.setFont(new Font("Arial", Font.PLAIN, 11));
 		lblAplicaoDesktop.setForeground(Color.GRAY);
-		contentPane.add(lblAplicaoDesktop, "cell 14 6,alignx center,aligny top");
+		contentPane.add(lblAplicaoDesktop, "cell 14 6,alignx left,aligny top");
 		
 		textField_1 = new JTextField();
 		textField_1.setText("");

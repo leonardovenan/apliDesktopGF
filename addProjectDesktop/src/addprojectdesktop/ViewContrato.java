@@ -1,11 +1,9 @@
 package addprojectdesktop;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -16,14 +14,12 @@ import javax.swing.WindowConstants;
 import java.awt.FlowLayout;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.EtchedBorder;
-import javax.swing.border.LineBorder;
 import java.awt.Color;
 import javax.swing.border.MatteBorder;
 import java.awt.Font;
 import java.awt.Frame;
 
 import javax.swing.JTable;
-import javax.swing.border.SoftBevelBorder;
 import javax.swing.border.CompoundBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.SwingConstants;
